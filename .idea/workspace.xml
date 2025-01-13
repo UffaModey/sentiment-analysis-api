@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9d28109-41c0-4ae9-b225-96cf017200a7" name="Changes" comment="cookie cutter initial setup">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sentiment-analysis-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.devcontainer/bashrc.override.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.devcontainer/devcontainer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.envs/.local/.django" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.envs/.local/.postgres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/docker_compose_up_django.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/docker_compose_up_docs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/merge_production_dotenvs_in_dotenv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/migrate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/pytest___.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/pytest__users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/runserver.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/runConfigurations/runserver_plus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/sentiment_analysis_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.pre-commit-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/.readthedocs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/CONTRIBUTORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/local/django/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/local/django/start" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/local/docs/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/local/docs/start" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/aws/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/aws/maintenance/download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/aws/maintenance/upload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/django/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/django/entrypoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/django/start" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/_sourced/constants.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/_sourced/countdown.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/_sourced/messages.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/_sourced/yes_no.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/backup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/backups" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/restore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/postgres/maintenance/rmbackup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/traefik/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/compose/production/traefik/traefik.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/api_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/settings/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/settings/local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/settings/production.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/settings/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/config/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docker-compose.docs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docker-compose.local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docker-compose.production.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/howto.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/configuration.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/f2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/f3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/f4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/issue1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/pycharm/images/issue2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/docs/users.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/justfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/locale/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/locale/en_US/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/locale/fr_FR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/merge_production_dotenvs_in_dotenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/requirements/base.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/requirements/local.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/requirements/production.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/sites/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/sites/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/sites/migrations/0002_alter_domain_unique.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/sites/migrations/0003_set_site_domain_and_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/sites/migrations/0004_alter_options_ordering_domain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/contrib/sites/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/static/css/project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/static/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/static/images/favicons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/static/js/project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/403_csrf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/account/base_manage_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/badge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/fields.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/elements/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/layouts/entrance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/allauth/layouts/manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/pages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/pages/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/users/user_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/templates/users/user_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/context_processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/factories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_drf_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_drf_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_swagger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/tests/test_views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/sentiment_analysis_api/users/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment_analysis_api/tests/test_merge_production_dotenvs_in_dotenv.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2raU6870JrjUvL8U25Q2ItlTZTf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d28109-41c0-4ae9-b225-96cf017200a7" name="Changes" comment="" />
+      <created>1736796503156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736796503156</updated>
+      <workItem from="1736796507734" duration="1192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cookie cutter initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cookie cutter initial setup" />
+  </component>
+</project>
